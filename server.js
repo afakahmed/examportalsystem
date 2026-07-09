@@ -21,7 +21,7 @@ const PORT = process.env.PORT || 3000;
 // SECTION 2: DATABASE CONNECTION & CONFIG
 // ==========================================
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://root:root@cluster0.bctlwhf.mongodb.net/?appName=Cluster0';
-const SESSION_SECRET = process.env.SESSION_SECRET;
+
 
 mongoose.connect(MONGODB_URI, {
     useNewUrlParser: true,
